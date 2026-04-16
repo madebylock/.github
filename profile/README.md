@@ -20,9 +20,6 @@
 *Open code. Free forever.*
 
 <br>
-
-[Universal Quantum Seed](https://https://github.com/madebylock/universal-quantum-seed)
-
 <br>
 
 </div>
