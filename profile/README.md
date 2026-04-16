@@ -2,7 +2,7 @@
 
 <br>
 
-# Signer.io
+# Lock™
 
 ### The world's first Isolated Wallet
 
@@ -21,7 +21,7 @@
 
 <br>
 
-[Website](https://www.signer.io) · [Source Code](https://github.com/SignerHQ/signer) · [Compiler](https://github.com/SignerHQ/signer-compiler) · [Universal Quantum Seed](https://github.com/SignerHQ/universal-quantum-seed)
+[Universal Quantum Seed](https://https://github.com/madebylock/universal-quantum-seed)
 
 <br>
 
@@ -33,12 +33,12 @@
 
 ## How It Works
 
-Signer.io splits your wallet into four roles across separate devices - your private keys never touch the internet.
+Lock splits your wallet into four roles across separate devices - your private keys never touch the internet.
 
 ```
 ┌──────────────────┐    ┌──────────────────┐    ┌──────────────────┐    ┌──────────────────┐
 │                  │    │                  │    │                  │    │                  │
-│     SIGNER       │◄──►│     WALLET       │◄──►│   RELAY NODE     │◄──►│      NODE        │
+│     LOCK         │◄──►│     WALLET       │◄──►│   RELAY NODE     │◄──►│      NODE        │
 │    (Offline)     │    │  (App/Browser)   │    │    (Online)      │    │    (Online)      │
 │                  │    │                  │    │                  │    │                  │
 │  Seeds & signing │    │  App or browser  │    │  Identity & IP   │    │  Blockchain      │
@@ -50,7 +50,7 @@ Signer.io splits your wallet into four roles across separate devices - your priv
    🔒 Air-gapped        📱 App / browser    🛡️ Protects your identity      💻 Computer
 ```
 
-No hardware wallet to buy. No manufacturer to trust. No supply chain to verify. Take any spare computer, disconnect it from the internet, and it becomes your Signer. The Wallet works as an app or in any browser - no download required, just connect to your Signer. Relay Nodes protect your identity and IP address by default and load balance across the network.
+No hardware wallet to buy. No manufacturer to trust. No supply chain to verify. Take any spare computer, disconnect it from the internet, and it becomes your Signer. The Wallet works as an app or in any browser - no download required, just connect to your treasury. Relay Nodes protect your identity and IP address by default and load balance across the network.
 
 <br>
 
@@ -91,16 +91,16 @@ Unlimited independent accounts derived from a single seed. Profile passwords pro
 - **Accent-insensitive** - `corazón` = `corazon`, emoji input supported
 - **Plausible deniability** - your backup looks like random notes, not a crypto wallet
 
-→ [Full documentation](https://github.com/SignerHQ/universal-quantum-seed)
+→ [Full documentation](https://github.com/madebylock/universal-quantum-seed)
 
 <br>
 
 ## Node Network
 
-Decentralized infrastructure for blockchain queries, broadcasting, and balance checks. Your keys stay on the Signer - the Node handles everything else.
+Decentralized infrastructure for blockchain queries, broadcasting, and balance checks. Your keys stay on the Treasury - the Node handles everything else.
 
 ```
-  SIGNER (offline)
+  TREASURY (offline)
      │ BT / USB / WiFi
   WALLET APP
      │ HTTPS
@@ -123,9 +123,9 @@ Decentralized infrastructure for blockchain queries, broadcasting, and balance c
 
 <br>
 
-## Signer.io vs. Hardware Wallets
+## Lock vs. Hardware Wallets
 
-| | Signer.io | Hardware Wallets |
+| | Lock | Hardware Wallets |
 |:---|:---:|:---:|
 | Keys isolated from internet | ✅ | ✅ |
 | Dedicated signing device | ✅ | ✅ |
@@ -145,7 +145,7 @@ Decentralized infrastructure for blockchain queries, broadcasting, and balance c
 
 ## Platforms
 
-| | Signer (Offline) | Wallet App | Node |
+| | Treasury (Offline) | Wallet App | Node |
 |:---|:---:|:---:|:---:|
 | **Windows** | ✅ | ✅ | ✅ |
 | **macOS** | ✅ | ✅ | ✅ |
@@ -158,16 +158,14 @@ Decentralized infrastructure for blockchain queries, broadcasting, and balance c
 
 | Repository | Description |
 |:---|:---|
-| [**Signer**](https://github.com/SignerHQ/signer) | The main wallet, node & signer - offline signing, 117+ blockchains |
-| [**Signer Compiler**](https://github.com/SignerHQ/signer-compiler) | One-command build tool for Windows, macOS, and Linux |
-| [**Universal Quantum Seed**](https://github.com/SignerHQ/universal-quantum-seed) | 256-icon, 42-language, quantum-safe seed phrase system |
-| [**Universal Quantum Seed (JS)**](https://github.com/SignerHQ/universal-quantum-seed-js) | 256-icon, 42-language, quantum-safe seed phrase system |
+| [**Universal Quantum Seed**](https://github.com/madebylock/universal-quantum-seed) | 256-icon, 42-language, quantum-safe seed phrase system |
+| [**Universal Quantum Seed (JS)**](https://github.com/madebylock/universal-quantum-seed-js) | 256-icon, 42-language, quantum-safe seed phrase system |
 
 <br>
 
 ## License
 
-[PolyForm Shield 1.0.0](https://polyformproject.org/licenses/shield/1.0.0) - Copyright © 2026 Signer.io
+[PolyForm Shield 1.0.0](https://polyformproject.org/licenses/shield/1.0.0) - Copyright © 2026 Lock.com
 
 <br>
 
@@ -177,7 +175,7 @@ Decentralized infrastructure for blockchain queries, broadcasting, and balance c
 
 **Your keys. Your rules.**
 
-Signer.io is free, open code, and built for everyone.<br>No company controls your wallet. No device required. No compromises.
+Lock™ is free, open code, and built for everyone.<br>No company controls your wallet. No device required. No compromises.
 
 <br>
 
