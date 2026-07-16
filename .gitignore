@@ -1,0 +1,20 @@
+# Python and test caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environments and credentials
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Local logs and editor/OS files
+*.log
+*.out
+*.err
+.DS_Store
+Thumbs.db
